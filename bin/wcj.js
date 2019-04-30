@@ -1,4 +1,6 @@
-#!/usr/bin/env node 
+#!/usr/bin/env node
+// 🤔 https://cnodejs.org/topic/50f18a44df9e9fcc5824ada5
+// 🤔 https://www.cnblogs.com/litifeng/p/8550914.html
 var program = require('commander');
 var color = require('colors-cli/toxic')
 var appInfo = require('./../package.json');
