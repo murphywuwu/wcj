@@ -8,6 +8,13 @@
   },
   "main": "index.js",
   "bin": {
+    "//": "https://docs.npmjs.com/cli/link.html",
+    "//": "用法1",
+    "//": "在根目录下执行npm link，用于在未发布的包的情况下，全局安装包",
+    "//": "/Users/mac/.nvm/versions/node/v8.0.0/bin/wcj -> /Users/mac/.nvm/versions/node/v8.0.0/lib/node_modules/wcj/bin/wcj.js",
+    "//": "/Users/mac/.nvm/versions/node/v8.0.0/lib/node_modules/wcj -> /Users/mac/Documents/expore-practice/wcj",
+    "//": "用法2",
+    "//": "npm link typescript(npm中的全局安装包)，用于在本地目录的node_modules中安装全局包(便于调试https://github.com/atian25/blog/issues/17)",
     "wcj": "bin/wcj.js"
   },
   "keywords": [
